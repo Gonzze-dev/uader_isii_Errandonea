@@ -1,6 +1,7 @@
 def imprimirNumerosPrimos(maximo = 100):
+	# prime number calculator: find all primes up to n
 	primeList = []
-	#Imprime los numeros primos hasta el indicado por el usuario
+	#for loop for checking each numbern
 	for x in range(2, maximo + 1):
 		isPrime = True
 		index = 0
@@ -16,7 +17,7 @@ def imprimirNumerosPrimos(maximo = 100):
 
 def imprimirNCantidadDeNumerosPrimos(cantidad = 10):
 	#-------------------------------------------------------------
-	# Imprime n cantidad de numeros primos, cuantos quiera el usuario
+	# prime number calculator: find the first n primes
 
 	primeList = []
 	x = 2
@@ -34,3 +35,15 @@ def imprimirNCantidadDeNumerosPrimos(cantidad = 10):
 			primeList.append(x)
 		x += 1
 	print(primeList)
+
+opcion = input('desea ingresar datos? (y/n): ')
+
+if opcion == 'y':
+	max = int(input("Find primes up to what number? : "))
+	count = int(input("Find how many primes?: "))
+else:
+	max = 100
+	count = 10
+	
+imprimirNCantidadDeNumerosPrimos(max)
+imprimirNumerosPrimos(count)
