@@ -18,3 +18,5 @@ Mi pagina web [![YardSale](https://gonzze-dev.github.io/Yard-Sale/assets/logos/l
 - Mirar series
 - Aprender algo nuevo
 - El gym
+
+> en efecto, no sabia que poner en este readme, probablemente sea actualizado a mitad de año
