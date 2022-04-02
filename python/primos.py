@@ -1,7 +1,7 @@
 def imprimirNumerosPrimos(maximo = 100):
-	# Calcolatore dei numeri primi: trova tutti i numeri primi fino a N
+	#Calcolatore dei numeri primi: trova tutti i numeri primi fino a N
 	primeList = []
-	# loop per controllare ogni numero
+	#loop per controllare ogni numero
 	for x in range(2, maximo + 1):
 		isPrime = True
 		index = 0
@@ -17,7 +17,7 @@ def imprimirNumerosPrimos(maximo = 100):
 
 def imprimirNCantidadDeNumerosPrimos(cantidad = 10):
 	#-------------------------------------------------------------
-	# Calcolatrice dei numeri primi: trova i primi N primi
+	#Calcolatrice dei numeri primi: trova i primi N primi
 
 	primeList = []
 	x = 2
