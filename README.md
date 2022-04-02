@@ -29,7 +29,7 @@ en una carpeta que tengo exclusiva para la materia.
 > eso de poner cd, y demas fue para probar el bash de git, para adaptarme a el.
 
 ###### paso 5
-1. una vez probe el archivo, en la misma carpeta, donde estaban creadas las carpetas de python, y de mas, con el bash abierto, puse los siguientes comandos
+1. una vez probe el archivo, en la misma carpeta, donde estaban creadas las carpetas de python, y de mas, con el bash abierto, puse los siguientes comandos.
 
 ```
 git init "UADER_ISII_Errandonea"
@@ -40,6 +40,13 @@ git commit -M "Primer Commit"
 git remote add origin https://github.com/Gonzze-dev/uader_isii_Errandonea.git
 git push -u origin main
 ```
-2. Luego de eso, me pidio iniciar sesion, una vez inicie, se subio todo
+2. Luego de eso, me pidio iniciar sesion, una vez inicie, se subio todo.
 
-###### paso 5
+###### paso 6
+1. borre el archivo *primos.py* de la carpeta *python*.
+2. abri el bash en la anterior carpeta a la de *python*.
+3. alli puse ```git status``` para ver si el archivo estaba borrado.
+4. el mismo git me decia que el archivo habia sido borrado, pero que lo podia recuperar con ```git restore + carpeta/archivo.extencion```.
+5. por ultimo, puse ```git restore python/primos.py``` para recuperarlo.
+
+###### paso 7
