@@ -1,9 +1,8 @@
 # Ingenieria de software II
 ## Primer Taller
-PROFES
+### PROFES
  - Julian Escalante
  - Pablo Collar
-###### Este repo se va a utilizar para los talleres
 
 Mi pagina web [![YardSale](https://gonzze-dev.github.io/Yard-Sale/assets/logos/logo_yard_sale.svg)](https://gonzze-dev.github.io/Yard-Sale/)
 > se hosteo en git porque no pienso pagar un host
@@ -23,4 +22,9 @@ en una carpeta que tengo exclusiva para la materia
 
 ###### paso 3
 1. Se decargue el archivo del aula virtual del muddle *primos.py* de la carpeta *trabajos practicos -> Gestión de la Configuración - Uso de Git y GitHub -> Apéndice*
+2. Coloque el archivo en la carpeta *python*
 
+###### paso 4
+1. testee el archivo py por el bash de git, simplemente colocandome en la carpeta donde tenia creda las anteriores carpetas, alli abri el bash de git, *click derecho y abri el bash ahi*, luego, escribir ```cd ./python``` para colocarme en la carpeta y luego puse ```py primos.py``` y luego lo empece a probar
+
+###### paso 5
