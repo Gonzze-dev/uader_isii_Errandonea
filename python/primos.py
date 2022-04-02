@@ -1,7 +1,7 @@
 def imprimirNumerosPrimos(maximo = 100):
-	# calculadora de numeros primos: busca todos los numeros primeos hasta N
+	# Calcolatore dei numeri primi: trova tutti i numeri primi fino a N
 	primeList = []
-	#bucle for para checkear cada numero
+	# loop per controllare ogni numero
 	for x in range(2, maximo + 1):
 		isPrime = True
 		index = 0
@@ -17,7 +17,7 @@ def imprimirNumerosPrimos(maximo = 100):
 
 def imprimirNCantidadDeNumerosPrimos(cantidad = 10):
 	#-------------------------------------------------------------
-	# calculadora de numeros primos: busca los primeros N primos
+	# Calcolatrice dei numeri primi: trova i primi N primi
 
 	primeList = []
 	x = 2
@@ -36,11 +36,11 @@ def imprimirNCantidadDeNumerosPrimos(cantidad = 10):
 		x += 1
 	print(primeList)
 
-opcion = input('desea ingresar datos? (y/n): ')
+opcion = input('vuoi inserire i dati? (s/n): ')
 
 if opcion == 'y':
-	max = int(input("buscar numeros primos hasta que numero?: "))
-	count = int(input("buscar cuantos primos?: "))
+	max = int(input("cercare numeri primi fino a quale numero?: "))
+	count = int(input("trovare quanti numeri primi?:"))
 else:
 	max = 100
 	count = 10
