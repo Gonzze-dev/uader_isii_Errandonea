@@ -1,8 +1,8 @@
 # Ingenieria de software II
 ## Primer Taller
 ### PROFES
- - Julian Escalante
- - Pablo Collar
+ - Julián Escalante
+ - Pedro Colla
 
 Mi pagina web [![YardSale](https://gonzze-dev.github.io/Yard-Sale/assets/logos/logo_yard_sale.svg)](https://gonzze-dev.github.io/Yard-Sale/)
 > se hosteo en git porque no pienso pagar un host.
@@ -29,7 +29,7 @@ en una carpeta que tengo exclusiva para la materia.
 > eso de poner cd, y demas fue para probar el bash de git, para adaptarme a el.
 
 ### paso 5
-1. una vez probe el archivo, en la misma carpeta, donde estaban creadas las carpetas de python, y de mas, con el bash abierto, puse los siguientes comandos.
+1. una vez probe el archivo, en la misma carpeta, donde estaban creadas las carpetas de python, y de mas, con el bash abierto, puse los siguientes comandos
 
 ```
 git init "UADER_ISII_Errandonea"
@@ -58,25 +58,25 @@ git add python/primos.py
 git commit -m "segundo commit"
 git push
 ```
-4. Comprobe que haya subido el archivo yendo al repo creado en git
+4. Comprobe que haya subido el archivo yendo al repo creado en git.
 
 ### paso 8 y paso 9
-1. cambie los textos del archivo *primos.py* a los idiomas pedidos
+1. cambie los textos del archivo *primos.py* a los idiomas pedidos.
 2. Verifique que se hayan hechos los cambios con ```git status```, y luego lo volvi a subir utilizando
 ```
 git add python/primos.py
 git commit -m "segundo commit"
 git push
 ```
-3. Comprobe que haya subido el archivo yendo al repo creado en git
+3. Comprobe que haya subido el archivo yendo al repo creado en git.
 
 ### paso 10
-1. hice un pequeño cambio en el archivo *primos.ý* para que haya diferencia con las demas versiones y asi, poder subirlo
+1. hice un pequeño cambio en el archivo *primos.ý* para que haya diferencia con las demas versiones y asi, poder subirlo.
 2. subi el archivo, con los mismos passo anteriores, con la diferenia que, para que se ponga la fecha en el commit, hice
 ```git commit -m "$(date)"```
-3. Verifique que se haya subido correctamente, yendo al repo denuevo
+3. Verifique que se haya subido correctamente, yendo al repo denuevo.
 
 ### paso 11
-1. aprendi a usar markup, guiandome por la documentacion de esta pagina [markup documentacion](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-2. probe algunas cositas en el readme creado anteriormente
+1. aprendi a usar markup, guiandome por la documentacion de esta pagina [markup documentacion](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+2. probe algunas cositas en el readme creado anteriormente.
 3. empece a escribir este hermoso documento, el cual merece un 11/10, pero si resibe menos no hay drama, porque no todos podemos tener un buen gusto para evaluar trabajos.
