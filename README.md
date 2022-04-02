@@ -50,4 +50,30 @@ git push -u origin main
 5. por ultimo, puse ```git restore python/primos.py``` para recuperarlo.
 
 ### paso 7
+1. Cambie un poco la logica del codigo, usando vs code para editar el archivo.
+2. Verifique que andara todo correctamente.
+3. Verifique el cambio con ```git status```, y luego utilice los siguientes comandos
+```
+git add python/primos.py
+git commit -m "segundo commit"
+git push
+```
+4. Comprobe que haya subido el archivo yendo al repo creado en git
 
+### paso 8 y paso 9
+1. cambie los textos del archivo *primos.py* a los idiomas pedidos
+2. Verifique que se hayan hechos los cambios con ```git status```, y luego lo volvi a subir utilizando
+```
+git add python/primos.py
+git commit -m "segundo commit"
+git push
+```
+3. Comprobe que haya subido el archivo yendo al repo creado en git
+
+### paso 10
+1. hice un pequeño cambio en el archivo *primos.ý* para que haya diferencia con las demas versiones y asi, poder subirlo
+2. subi el archivo, con los mismos passo anteriores, con la diferenia que, para que se ponga la fecha en el commit, hice
+```git commit -m "$(date)"```
+3. Verifique que se haya subido correctamente, yendo al repo denuevo
+
+### paso 11
