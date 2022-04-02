@@ -77,3 +77,6 @@ git push
 3. Verifique que se haya subido correctamente, yendo al repo denuevo
 
 ### paso 11
+1. aprendi a usar markup, guiandome por la documentacion de esta pagina [markup documentacion](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+2. probe algunas cositas en el readme creado anteriormente
+3. empece a escribir este hermoso documento, el cual merece un 11/10, pero si resibe menos no hay drama, porque no todos podemos tener un buen gusto para evaluar trabajos.
